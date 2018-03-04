@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>465</width>
+    <height>57</height>
+   </rect>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>501</width>
+    <height>71</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <family>DejaVu Sans Mono</family>
+    <pointsize>10</pointsize>
+    <weight>75</weight>
+    <bold>true</bold>
+   </font>
+  </property>
+  <property name="focusPolicy">
+   <enum>Qt::StrongFocus</enum>
+  </property>
+  <property name="windowTitle">
+   <string>Power-Manager</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow#MainWindow{
+background-color:#525252;
+}</string>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="0">
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QPushButton" name="lock">
+        <property name="maximumSize">
+         <size>
+          <width>101</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#lock{
+background-color:#353535;
+color:white;
+}
+
+QPushButton#lock:hover{
+background-color:#e0e3b3;
+color:red;
+}</string>
+        </property>
+        <property name="text">
+         <string>Lock</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="suspend">
+        <property name="maximumSize">
+         <size>
+          <width>101</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#suspend{
+background-color:#353535;
+color:white;
+}
+
+QPushButton#suspend:hover{
+background-color:#e0e3b3;
+color:red;
+}</string>
+        </property>
+        <property name="text">
+         <string>Suspend</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="reboot">
+        <property name="maximumSize">
+         <size>
+          <width>101</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#reboot{
+background-color:#353535;
+color:white;
+}
+
+QPushButton#reboot:hover{
+background-color:#e0e3b3;
+color:red;
+}</string>
+        </property>
+        <property name="text">
+         <string>Reboot</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="off">
+        <property name="maximumSize">
+         <size>
+          <width>101</width>
+          <height>41</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QPushButton#off{
+background-color:#353535;
+color: white;
+}
+
+QPushButton#off:hover{
+background-color:#e0e3b3;
+color:red;
+}</string>
+        </property>
+        <property name="text">
+         <string>Power off</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
